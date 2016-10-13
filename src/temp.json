@@ -1,0 +1,37 @@
+[({
+    'from': 238,
+    'routes': [({
+        'routes': ['12', '13', '14'],
+        'distance': 8940
+    }), ({
+        'routes': ['34'],
+        'distance': 10561
+    })],
+    'changes': ['231'],
+    'to': 216,
+    'distance': 19501
+}), ({
+    'from': 238,
+    'routes': [({
+        'routes': ['12', '13', '14'],
+        'distance': 22491
+    }), ({
+        'routes': ['7', '8', '9'],
+        'distance': 20158
+    })],
+    'changes': ['2'],
+    'to': 216,
+    'distance': 42649
+}), ({
+    'from': 238,
+    'routes': [({
+        'routes': ['12', '13', '14'],
+        'distance': 23085
+    }), ({
+        'routes': ['7', '8', '9'],
+        'distance': 20767
+    })],
+    'changes': ['1'],
+    'to': 216,
+    'distance': 43852
+})]
