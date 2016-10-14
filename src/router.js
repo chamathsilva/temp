@@ -120,8 +120,7 @@ Router.prototype.findRoutes = function(from, to, limit = 5) {
     } else {
         /**
         	if not found, try to find reachable nodes from the first route, and
-        	from the second route, and any intersecting stops
-        */
+        	from the second route, and any intersecting stops */
         var fromStops = [],
             toStops = [],
             distances, multiRoutes = [],
@@ -236,6 +235,19 @@ Router.prototype.getAllPlaces = function() {
     }
     return places;
 };
+
+//** get a list of bustops with in the givin start point to end point by givin bus
+console.log("test");
+
+Router.prototype.getAllStpos = function(id) {
+    return this.buses.routes[1];
+
+};
+
+
+
+
+
 
 /** Haversine formula, stolen off http://stackoverflow.com/a/27943 */
 Router.prototype.deg2rad = function(deg) {
