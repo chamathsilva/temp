@@ -15,6 +15,6 @@
     "nodemon": "^1.11.0"
   },
   "dependencies": {
-    "node-stringify": "0.0.19"
+    "node-stringify": "0.2.1"
   }
 }
